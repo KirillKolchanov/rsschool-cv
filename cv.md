@@ -1,10 +1,14 @@
 # Kirill Kolchanov
+
+![personalPhoto width="100px"](IMG_0916.jpg)
+
 ## **Contact information** 📲
 - Email: kirill.kolchanov.work@gmail.com
 - Discord: Kirill Ko
 - GitHub: @KirillKolcanov
 
 ___
+
 ## **About me** 🙋🏽‍♂️
 *I want to possess all the skills of frontend programming and move further as an experienced professional. Having a great desire to constantly learn new things and help other people in this direction.*
 
@@ -16,7 +20,12 @@ ___
 
 ## Programming skills 🤔
 
-<!-- Add information-->
++     using HTML, CSS, and JS for educational purposes.
++     Knowledge of adaptive layout
++     Using the "BAM" methodology
++     Skills of the GIT system
++     Basic knowledge of SQL
++     Writing a project using the React framework
 
 ___
 
@@ -41,9 +50,9 @@ ___
 
 ## **Job experience** 👨🏽‍💻
 
-*Worked in a logistics company as a system administrator.
-Managed my own entertainment business.
-Participated in two start-ups, where I performed different roles and solved many tasks. One of the directions was: AR-development.*
+* Worked in a logistics company as a system administrator.
++ Managed my own entertainment business.
++ Participated in two start-ups, where I performed different roles and solved many tasks. One of the directions was: AR-development.
 
 ___
 
@@ -64,8 +73,6 @@ ___
 
 *I am studying at university in my second year in English language. For admission I used the international certificate IELTS with the level of B2.
 I studied constantly on the courses in Minsk, with Russian-speaking teachers, as well as with active speakers. Constantly learning and improving my knowledge.*
-
-___
 
 
 
