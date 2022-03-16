@@ -1,6 +1,6 @@
 .container {
   max-width: 1024px;
-
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
   margin: 0 auto;
   height: 1500px;
   display: flex;
@@ -9,14 +9,12 @@
 
 .left-side {
   width: 35%;
-  border: 1px solid blue;
   height: 1500px;
   background-color: rgba(23, 65, 128, 1);
 }
 
 .right-side {
   width: 65%;
-  border: 1px solid blue;
   height: 1500px;
 }
 
