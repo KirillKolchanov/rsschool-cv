@@ -19,15 +19,15 @@
       <div class="contact">
         <h4 class="leftside-header">Contact information 📲 </h4>
         <p class="leftside-text contact-text">
-          <i class="fa fa-2x fa-telegram" aria-hidden="true"></i> <a href="https://t.me/kirya_ko" class="contact-links">@kirya_ko</a><br>
-          <i class="fa fa-2x fa-github" aria-hidden="true"></i> <a href="https://github.com/KirillKolchanov/" class="contact-links">@KirillKolchanov</a><br>
-          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/kirillkolchanov/" class="contact-links">KirillKolchanov</a> <br>
+          <i class="fa fa-2x fa-telegram" aria-hidden="true"></i><a href="https://t.me/kirya_ko" class="contact-links">@kirya_ko</a><br>
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i><a href="https://github.com/KirillKolchanov/" class="contact-links">@KirillKolchanov</a><br>
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/kirillkolchanov/" class="contact-links">KirillKolchanov</a> <br>
           <i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i><span class="contact-links">kirill.kolchanov.work@gmail.com</span>
         </p>
       </div>
       <div class="about-me">
         <h4 class="leftside-header">About me 🙋🏽‍♂️</h4>
-        <p class="leftside-text">I want to possess all the skills of frontend programming and move further as an experienced professional. Having a great desire to constantly learn new things and help other people in this direction.
+        <p class="leftside-text">I want to possess all the skills of frontend programming and move further as an experienced professional. Having a great desire to constantly <br> learn new things and help other people in this direction.
           <br><br>
           Strengths 💪🏼 : entrepreneurial spirit, energy, optimism, sociability, desire to help people.
           <br><br>
@@ -113,7 +113,7 @@
       </div>
 
       <div class="courses-part">
-        <h3 class="rightside-header">Courses</h3>
+        <h3 class="rightside-header">Courses 📚</h3>
 
         <div class="ed-part vr-part">
           <div class="education-text">
@@ -126,21 +126,25 @@
         </div>
       </div>
       <div class="code-example">
-        <h3 class="rightside-header">Code example from codewars</h3>
-        <!-- <img src="/code img.png" alt="" class="code-img"> -->
+        <h3 class="rightside-header">Code example from codewars 🤺</h3>
         <p class="code-text">
+          TASK: Complete the method/function so that it converts dash/underscore delimited words into camel casing.
+          The first word within the output should be capitalized only if the original word was capitalized
+          (known as Upper Camel Case, also often referred to as Pascal case).
+          <div class="code-position">
           <code>
             function toCamelCase(str){ <br>
               if (str === "") { <br>
-                return "" <br>
+                return ""; <br>
               } <br>
               const newStr = str.split(/[_-]/); <br>
               if (newStr[0][0] != newStr[0][0].toUpperCase()) { <br>
-                return newStr[0] + (newStr.slice(1).map(word => word[0].toUpperCase() + word.substr(1))).join("") <br>
+                return newStr[0] + (newStr.slice(1).map(word => word[0].toUpperCase() + word.substr(1))).join(""); <br>
               } else <br>
-              return  (newStr.map(word => word[0].toUpperCase() + word.substr(1))).join("") <br>
+              return  (newStr.map(word => word[0].toUpperCase() + word.substr(1))).join(""); <br>
             }
           </code>
+          </div>
         </p>
       </div>
 

@@ -57,7 +57,7 @@ h2 {
 }
 
 .leftside-text {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   margin: 10px 0 0 15px;
   line-height: 17px;
@@ -71,6 +71,8 @@ h2 {
   font-size: 14px;
   line-height: 30px;
   margin-left: 20px;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 .fa {
@@ -163,6 +165,16 @@ h2 {
 }
 
 .code-text {
-  padding-left: 30px;
+  margin-left: 45px;
   font-family: "Open Sans";
+  font-size: 14px;
+  width: 570px;
+}
+
+.code-position {
+  margin-top: 20px;
+  margin-left: 45px;
+  width: 570px;
+  box-shadow: 0 0 10px rgba(0.2,0,0,0.2);
+  padding: 10px 10px;
 }
