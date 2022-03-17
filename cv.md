@@ -1,6 +1,6 @@
 # Kirill Kolchanov
 
-![personalPhoto width="100px"](IMG_0916.jpg)
+![personalPhoto width="100px"](/assets/img/IMG_0916.jpg)
 
 ## **Contact information** 📲
 - Email: kirill.kolchanov.work@gmail.com
