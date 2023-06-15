@@ -1,0 +1,183 @@
+.container {
+  max-width: 1024px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 0 auto;
+  display: flex;
+  font-family: "Open Sans";
+}
+
+.left-side {
+  width: 35%;
+  background-color: rgba(23, 65, 128, 1);
+}
+
+.right-side {
+  width: 65%;
+}
+
+.avatar-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 170px;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  margin: 10px 0px 0px 20px;
+}
+
+.header-weight {
+  font-weight: 800;
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0px 0px 0px 20px
+}
+
+.leftside-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0 0 20px;
+  color: rgba(86, 204, 242, 1)
+}
+
+.leftside-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0 0 15px;
+  line-height: 17px;
+  color: white;
+  padding-right: 15px;
+}
+
+.contact-links {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 20px;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.fa {
+  margin-left: 15px;
+}
+
+.ul-position {
+  margin-left: 0px;
+  line-height: 20px;
+}
+
+.language-text {
+  color: white;
+  font-size: 18px;
+  margin: 15px 0 0 30px;
+  line-height: 30px;
+}
+
+.rightside-header {
+  margin-top: 0px;
+  margin-left: 50px;
+  color: black;
+  font-size: 26px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: rgba(23, 65, 128, 1);
+}
+
+.education-part {
+  margin: 50px 0 0 0px;
+  font-family: "Open Sans";
+}
+
+.ed-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 70px 0 50px
+}
+
+.education-text {
+  font-size: 16px;
+  max-width: 200px;
+}
+
+.education-date {
+  color: rgba(130, 130, 130, 1);
+  font-weight: 600;
+  font-style: italic;
+  max-width: 220px;
+}
+
+.education-spec {
+  color:rgba(79, 79, 79, 1);
+  font-weight: 700;
+  margin: 0px 0px 0px 10px;
+}
+
+.education-location {
+  color: rgba(130, 130, 130, 1);
+  font-weight: 400;
+  margin: 5px 0px 0px 10px;
+}
+
+.education-level {
+  font-size: 12px;
+}
+
+.education-project {
+  font-size: 12px;
+  color: blue;
+}
+
+.university-part {
+  margin-top: 20px;
+  margin-right: 14px;
+}
+
+.experience-part {
+  margin-top: 30px;
+}
+
+.it-part {
+  margin-top: 20px;
+}
+
+.tsp-part {
+  margin-top: 20px;
+}
+
+.courses-part {
+  margin-top: 30px;
+}
+
+.code-example {
+  margin-top: 30px;
+}
+
+.code-text {
+  margin-left: 45px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  width: 570px;
+}
+
+.code-position {
+  margin-top: 20px;
+  margin-left: 45px;
+  width: 570px;
+  box-shadow: 0 0 10px rgba(0.2,0,0,0.2);
+  padding: 10px 10px;
+}
