@@ -3,9 +3,189 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV of Kirill Kolchanov, Frontend/Mobile (React/React Native) developer">
   <title>Kirill Kolchanov – CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="page">
+    <header class="header">
+      <div class="header__person">
+        <img class="header__avatar" src="assets/img/avatar.jpg" alt="Photo of Kirill Kolchanov" width="120" height="122">
+        <div>
+          <h1 class="header__name">Kirill Kolchanov</h1>
+          <p class="header__position">Frontend/Mobile (React/React Native) developer</p>
+        </div>
+      </div>
+      <ul class="contacts">
+        <li class="contacts__item">Warsaw, Poland <span class="muted">(access to labor market)</span></li>
+        <li class="contacts__item"><a href="mailto:kirill.ko.work@gmail.com">kirill.ko.work@gmail.com</a></li>
+        <li class="contacts__item"><a href="https://www.linkedin.com/in/kirillkolchanov/" target="_blank" rel="noopener">LinkedIn: @kirillkolchanov</a></li>
+        <li class="contacts__item"><a href="https://github.com/KirillKolchanov" target="_blank" rel="noopener">GitHub: KirillKolchanov</a></li>
+      </ul>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#code">Code</a></li>
+          <li><a class="nav__link" href="#experience">Experience</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+          <li><a class="nav__link" href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="section" id="about">
+        <h2 class="section__title">About me</h2>
+        <p>Frontend Developer with 4 years of experience building scalable web and mobile applications with <strong>React, React Native, TypeScript</strong>, and <strong>Next.js</strong>. Experienced in <strong>FinTech</strong>, <strong>Healthcare</strong>, and <strong>enterprise AI platforms</strong>, developing complex user interfaces, API integrations, data-heavy applications, and cross-platform solutions.</p>
+        <p>Strong focus on <strong>performance optimization, state management, testing, accessibility,</strong> and <strong>scalable frontend architecture</strong>. Experienced working in large TypeScript monorepos, integrating enterprise authentication, real-time APIs, and AI-powered features.</p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills">
+          <li><strong>Languages &amp; Core:</strong> TypeScript, JavaScript, HTML5, CSS3/SASS</li>
+          <li><strong>Frameworks &amp; UI:</strong> React, React Native, Next.js, Tailwind CSS, Fluent UI, Material UI</li>
+          <li><strong>State &amp; Data:</strong> TanStack Query, Redux Toolkit, Zustand, Axios, GraphQL, REST APIs, WebSockets</li>
+          <li><strong>Tooling &amp; Architecture:</strong> Vite, Webpack, Monorepos (npm workspaces), Storybook, VS Code Extensions, Docker</li>
+          <li><strong>Testing &amp; CI/CD:</strong> Vitest, Playwright, Jest, React Testing Library, GitHub Actions, GitLab CI/CD</li>
+          <li><strong>Performance &amp; Security:</strong> Code-Splitting, SWR Caching, Startup Parallelization, Auth.js/OAuth, Vercel AI SDK</li>
+          <li><strong>Cloud &amp; Infrastructure:</strong> AWS, Docker</li>
+        </ul>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section__title">Code example</h2>
+        <p>Codewars kata: convert dash/underscore delimited words into camel casing. The first word should be capitalized only if the original word was capitalized.</p>
+        <pre class="code"><code>function toCamelCase(str) {
+  return str.replace(/[-_](\w)/g, (_, char) =&gt; char.toUpperCase());
+}</code></pre>
+      </section>
+
+      <section class="section" id="experience">
+        <h2 class="section__title">Web application development</h2>
+
+        <article class="job">
+          <div class="job__head">
+            <h3 class="job__title">AI Platform | React 19, TypeScript, Playwright</h3>
+            <p class="job__date">May 2026 – Now</p>
+          </div>
+          <p class="job__company">Company: <a href="https://akvelon.com/" target="_blank" rel="noopener">Akvelon</a> (for Microsoft)</p>
+          <p>Enterprise AI platform for scientific research. The goal is to give researchers a single environment – a <strong>web shell</strong> and a <strong>VS Code-based IDE</strong> – where they can run AI-assisted investigations, manage <strong>AI agents</strong> and work with scientific data. Working in a large TypeScript <strong>monorepo</strong> shared by the web app, the extension and internal SDK packages.</p>
+          <ul class="job__list">
+            <li><strong>VS Code Extension &amp; Webviews:</strong> Engineered agent management/chat UI in <strong>React &amp; Fluent UI v9</strong>; migrated legacy code to typed components.</li>
+            <li><strong>Data &amp; State:</strong> Handled high-volume datasets using cursor-based pagination, <strong>SWR</strong> caching, and shared internal API clients.</li>
+            <li><strong>Performance:</strong> Cut startup latency through webview parallelization, bundle splitting, and resource caching.</li>
+            <li><strong>Enterprise Auth:</strong> Integrated <strong>Azure</strong> &amp; <strong>MSAL/Entra ID</strong> for multi-tenant auth and dynamic RBAC UI states.</li>
+            <li><strong>Testing &amp; CI/CD:</strong> Enforced ≥85% test coverage (<strong>Jest, Playwright</strong>); set up <strong>ESLint/CodeQL</strong> gates in <strong>Azure DevOps</strong>.</li>
+            <li><strong>Observability:</strong> Added <strong>App Insights</strong> monitoring and telemetry; conducted peer code reviews.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job__head">
+            <h3 class="job__title">Healthcare Quality Platform | Next.js, React, TypeScript</h3>
+            <p class="job__date">Apr 2025 – Apr 2026</p>
+          </div>
+          <p class="job__company">Company: <a href="https://www.w-hoch2.ch/" target="_blank" rel="noopener">W-hoch2</a> (short-term contract)</p>
+          <ul class="job__list">
+            <li><strong>Engineered and launched</strong> a high-performance healthcare platform using <strong>Next.js 16, React 19, TypeScript</strong>, and <strong>Tailwind CSS</strong>, serving institutional data with advanced filtering, drag-and-drop comparison tools, and interactive benchmark visualizations.</li>
+            <li><strong>Optimized data retrieval and routing</strong> by integrating <strong>RESTful APIs</strong> with server-side pagination and robust error handling, implementing URL state synchronization to ensure seamless shareable views and user state retention.</li>
+            <li><strong>Architected a multi-language localization system</strong> (DE/FR/IT) utilizing automatic detection (cookies, domains, browser locale) with server-side initialization, driving improved <strong>SEO</strong> performance and global accessibility.</li>
+            <li><strong>Championed web accessibility and production readiness</strong> by implementing comprehensive <strong>ARIA</strong> attributes, keyboard navigation focus states, and automated testing via <strong>Storybook a11y</strong>, alongside customized print utilities for structured reporting.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job__head">
+            <h3 class="job__title">GenAI Platform | Next.js, TypeScript, Redux, JEST, RTL, OpenAI API</h3>
+            <p class="job__date">Jan 2023 – Jan 2024</p>
+          </div>
+          <p class="job__company">Company: <a href="https://www.verses.ai/" target="_blank" rel="noopener">Verses AI</a></p>
+          <p>Gen-UI is an R&amp;D platform built to showcase active inference-based autonomous agents operating across virtual worlds, real-world physical environments, and video game simulations.</p>
+          <ul class="job__list">
+            <li>Wrote robust <strong>unit and integration test suites</strong> using <strong>Jest</strong> and <strong>React Testing Library</strong> for critical UI components and complex business logic, presenting detailed test coverage metrics directly to stakeholders to enforce rigorous quality standards.</li>
+            <li>Translated complex <strong>Figma</strong> design systems into pixel-perfect, responsive UI updates while maintaining absolute visual consistency, with a primary focus on high-stakes AI chat components and critical-path robot control interfaces.</li>
+            <li>Engineered and scaled a custom <strong>API request architecture</strong> to seamlessly integrate backend microservices, guaranteeing fault-tolerant data flow and low-latency communication for real-time robot task management and performance analytics.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job__head">
+            <h3 class="job__title">A-Infinity (FinTech App) | React, TypeScript, Redux, JEST, RTL</h3>
+            <p class="job__date">Mar 2021 – Feb 2022</p>
+          </div>
+          <p class="job__company">Company: <a href="https://andersenlab.com/" target="_blank" rel="noopener">Andersen Lab</a></p>
+          <ul class="job__list">
+            <li>Engineered core credit and deposit modules for a <strong>high-traffic FinTech banking app</strong> using <strong>React, TypeScript, Redux Toolkit,</strong> and <strong>RTK Query</strong>, ensuring performant state management and robust API caching.</li>
+            <li>Built scalable, maintainable UI components using semantic <strong>HTML5</strong> and <strong>SASS</strong> with strict adherence to the <strong>BEM</strong> methodology.</li>
+            <li>Architected complex multi-step form workflows utilizing <strong>React Hook Form</strong> and <strong>Zod</strong> for bulletproof client-side validation, integrated seamlessly with a Java backend to guarantee secure data handling and clear user feedback.</li>
+            <li>Collaborated closely with QA and Product teams to resolve critical production bugs, implemented secure user authentication workflows, and delivered regular sprint demonstrations to key stakeholders.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Mobile application development</h2>
+
+        <article class="job">
+          <div class="job__head">
+            <h3 class="job__title">Courier companion app | React Native, TypeScript, Redux</h3>
+            <p class="job__date">Feb 2024 – Mar 2025</p>
+          </div>
+          <p class="job__company">Company: <a href="https://www.chapmanfreeborn.aero/" target="_blank" rel="noopener">Chapman Freeborn OBC</a> (short-term contract)</p>
+          <ul class="job__list">
+            <li>Upgraded the OBC Courier Companion app across <strong>iOS</strong> and <strong>Android</strong> from <strong>React Native 0.72</strong> through <strong>0.73</strong> to <strong>0.74</strong>, modernizing the core codebase and native dependencies.</li>
+            <li>Modernized native location tracking by migrating from legacy packages to <strong>@react-native-community/geolocation</strong>, updating background and foreground services to maintain reliable cross-platform tracking.</li>
+            <li>Authored and applied custom native compatibility patches for <strong>react-native-navigation</strong> on <strong>Android</strong> and <strong>react-native-share-menu</strong> on <strong>iOS</strong> to ensure stable builds post-migration.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job__head">
+            <h3 class="job__title">MedCare (Healthcare app) | React Native, TypeScript, React Navigation</h3>
+            <p class="job__date">Mar 2022 – Dec 2022</p>
+          </div>
+          <p class="job__company">Company: <a href="https://andersenlab.com/" target="_blank" rel="noopener">Andersen Lab</a></p>
+          <ul class="job__list">
+            <li>Developed core features for a Canadian healthcare clinic cross-platform mobile app, including authentication, user profiles, subscription management, and structured in-app navigation using <strong>TypeScript</strong> and <strong>React Navigation</strong>.</li>
+            <li>Implemented robust data validation for complex user inputs using <strong>React Hook Form</strong>, ensuring seamless cross-platform functionality across <strong>iOS</strong> and <strong>Android</strong>.</li>
+            <li>Integrated critical mobile capabilities including push notifications, real-time geolocation services, and deep linking to optimize user engagement and retention.</li>
+          </ul>
+        </article>
+      </section>
+
+      <div class="columns">
+        <section class="section" id="education">
+          <h2 class="section__title">Education</h2>
+          <ul class="plain-list">
+            <li><strong>Vistula University</strong> – Bachelor’s in Project Management (2023)</li>
+            <li><strong>RS School</strong> – Fullstack Engineering course</li>
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section__title">Languages</h2>
+          <ul class="plain-list">
+            <li><strong>English</strong> – B2</li>
+            <li><strong>Polish</strong> – B1</li>
+            <li><strong>Russian</strong> – native</li>
+            <li><strong>Belarusian</strong> – native</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a class="footer__link" href="https://github.com/KirillKolchanov" target="_blank" rel="noopener">GitHub</a>
+      <span class="footer__year">2026</span>
+      <a class="footer__logo-link" href="https://rs.school/" target="_blank" rel="noopener">
+        <img class="footer__logo" src="assets/img/rs-school-logo.svg" alt="RS School logo" width="100" height="37">
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
