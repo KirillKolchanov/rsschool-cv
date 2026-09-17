@@ -91,3 +91,15 @@ Gen-UI is an R&D platform built to showcase active inference-based autonomous ag
 - Developed core features for a Canadian healthcare clinic cross-platform mobile app, including authentication, user profiles, subscription management, and structured in-app navigation using **TypeScript** and **React Navigation**.
 - Implemented robust data validation for complex user inputs using **React Hook Form**, ensuring seamless cross-platform functionality across **iOS** and **Android**.
 - Integrated critical mobile capabilities including push notifications, real-time geolocation services, and deep linking to optimize user engagement and retention.
+
+## Education
+
+- **Vistula University** – Bachelor's in Project Management (2023)
+- **RS School** – Fullstack Engineering course
+
+## Languages
+
+- **English** – B2
+- **Polish** – B1
+- **Russian** – native
+- **Belarusian** – native
