@@ -1,2 +1,5 @@
 # rsschool-cv
-CV Markdown &amp; Git
+
+CV Markdown & Git
+
+- CV (Markdown): https://kirillkolchanov.github.io/rsschool-cv/cv
